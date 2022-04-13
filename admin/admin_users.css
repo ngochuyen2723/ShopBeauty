@@ -1,0 +1,64 @@
+
+
+/* <==========  Content style ==========>*/
+.header-content {
+	margin: 20px 0 30px 0;
+	border-bottom: solid 2px black;
+	padding-bottom: 8px; 
+}
+
+.header-content h2 {
+	display: inline;
+}
+.header-content .add-user {
+	display: inline;
+	border-radius: 8px;
+	padding: 3px 15px;
+	color: white;
+	background-color: #272F44;
+	float:right;
+}
+.header-content .add-user:hover {
+	color: #4AFFFF;
+}
+.content .container {
+	width: 95%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+	border-bottom: solid 1px #C6C6C6;
+}
+
+tr:nth-child(1) {
+    background-color: black !important;
+    color: white;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+td .fa{
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+}
+.fa-trash-o{
+	font-weight: normal !important;
+}
+td li{
+	display: inline;
+	margin-right: 4px;
+}
+/* <========== End Content style ==========>*/
+
